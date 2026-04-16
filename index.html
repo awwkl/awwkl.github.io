@@ -72,6 +72,46 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="zwm2026_stop()" onmouseover="zwm2026_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="zwm2026_image">
+                      <img src="images/2026/zwm2026_after.png" width="160">
+                    </div>
+                    <img src="images/2026/zwm2026_before.png" width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function zwm2026_start() {
+                      document.getElementById("zwm2026_image").style.opacity = "1";
+                    }
+                    function zwm2026_stop() {
+                      document.getElementById("zwm2026_image").style.opacity = "0";
+                    }
+                    zwm2026_stop();
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2604.10333">
+                    <span class="papertitle">Zero-shot World Models Are Developmentally Efficient Learners</span>
+                  </a>
+                  <br>
+                  <strong>Khai Loong Aw</strong>, Klemen Kotar, Wanhee Lee, Seungwoo Kim, Khaled Jedoui, Rahul Venkatesh, Lilian Naing Chen, Michael C. Frank, Daniel L.K. Yamins
+                  <br>
+                  2026
+                  <br>
+                  <a href="https://arxiv.org/abs/2604.10333">arXiv</a>
+                  /
+                  <a href="https://github.com/awwkl/ZWM">GitHub</a>
+                  /
+                  <a href="https://huggingface.co/awwkl/models">HuggingFace</a>
+                  <p></p>
+                  <p>
+                    Today's best AI needs orders of magnitude more data than a human child to achieve visual competence.
+                    We introduce the Zero-shot World Model (ZWM), an approach that substantially narrows this gap. Even when trained on the first-person experience of a single child, BabyZWM matches state-of-the-art models on diverse visual-cognitive tasks – with no task-specific training, i.e., zero-shot.
+                    Our work presents a blueprint for efficient and flexible learning from human-scale data, advancing a path toward data-efficient AI systems.
+                  </p>
+                </td>
+              </tr>
               <tr onmouseout="kl_tracing_2025_stop()" onmouseover="kl_tracing_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
